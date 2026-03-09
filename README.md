@@ -4,10 +4,6 @@ Note: In this design oauth2-proxy is not your reverse proxy. It does one thing: 
 
 This is a minimal, constraint-first example of OAuth2/OIDC authentication with OneLogin. The setup deliberately uses oauth2-proxy as auth-only (via `static://200`), not as an application proxy. That's not just cosmetic—it's a design decision that keeps responsibilities clear.
 
-## Demo Video
-
-Watch the setup in action: [https://youtu.be/AIQHvP7mnRQ](https://youtu.be/AIQHvP7mnRQ)
-
 ## How This Actually Works
 
 ```
